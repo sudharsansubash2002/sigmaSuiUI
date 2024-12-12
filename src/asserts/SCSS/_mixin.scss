@@ -1,0 +1,79 @@
+// Flexbox display
+@mixin flexbox() {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+  }
+  
+  // flex-start | flex-end | center | space-between | space-around 
+  @mixin justify-content($justify) {
+    -webkit-justify-content: $justify;
+       -moz-justify-content: $justify;
+        -ms-justify-content: $justify;
+            justify-content: $justify;
+              -ms-flex-pack: $justify;
+  }
+  
+  // flex-start | flex-end | center | baseline | stretch 
+  @mixin align-items($align) {
+    -webkit-align-items: $align;
+       -moz-align-items: $align;
+        -ms-align-items: $align;
+         -ms-flex-align: $align;
+            align-items: $align;
+  }
+  
+  // row | column | column-reverse | row-reverse
+  @mixin flex-direction($direction){
+    -webkit-flex-direction: $direction;
+    -moz-flex-direction: $direction;
+    -ms-flex-direction: $direction;
+    -o-flex-direction: $direction;
+    flex-direction: $direction;
+  }
+  
+  @mixin flex($fg: 1, $fs: 0, $fb: auto) {
+    $fg-boxflex: $fg;
+    @if type-of($fg) == 'list' {
+      $fg-boxflex: nth($fg, 1);
+    }
+     -webkit-box: $fg-boxflex;
+        -moz-box: $fg-boxflex;
+    -webkit-flex: $fg $fs $fb;
+        -ms-flex: $fg $fs $fb;
+            flex: $fg $fs $fb;
+  }
+  
+  // transition
+  @mixin transition($transition...) {
+      -moz-transition:    $transition;
+      -o-transition:      $transition;
+      -webkit-transition: $transition;
+      transition:         $transition;
+  }
+  
+  // translate
+  @mixin translate($x, $y){
+      -moz-transform:    translate($x, $y);
+      -o-transform:      translate($x, $y);
+      -webkit-transform: translate($x, $y);
+      transform:         translate($x, $y);
+  }
+  
+  @mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    transform: $transforms;
+  }
+  
+  // rotate
+  @mixin rotate($deg...){
+      -moz-transform:    rotate($deg);
+      -o-transform:      rotate($deg);
+      -webkit-transform: rotate($deg);
+      transform:         rotate($deg);
+  }
+  

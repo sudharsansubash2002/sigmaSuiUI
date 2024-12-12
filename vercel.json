@@ -1,0 +1,275 @@
+{
+    "rewrites": [
+        {
+            "source": "/platform/v1/userinfo",
+            "destination": "http://3.139.86.153:42100/bank/v1/userinfo"            
+        },
+        {
+            "source": "/platform/v1/visitinfo",
+            "destination": "http://3.139.86.153:42100/bank/v1/visitinfo"            
+        },
+        {
+            "source": "/platform/v1/userexists",
+            "destination": "http://3.139.86.153:42100/bank/v1/userexists"            
+        },
+        {
+            "source": "/platform/v1/templateusage",
+            "destination": "http://3.139.86.153:42100/bank/v1/templateusage"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord",
+            "destination": "http://3.139.86.153:42100/bank/v1/uservisitrecord"
+        },
+        {
+            "source": "/platform/v1/payment",
+            "destination": "http://3.139.86.153:42100/bank/v1/payment"
+        },
+        {
+            "source": "/platform/v1/invoice",
+            "destination": "http://3.139.86.153:42100/bank/v1/invoice"
+        },
+        {
+            "source": "/platform/v1/generateinvoice",
+            "destination": "http://3.139.86.153:42100/bank/v1/generateinvoice"
+        },
+        {
+            "source": "/platform/v1/network",
+            "destination": "http://3.139.86.153:42100/bank/v1/network"
+        },
+        {
+            "source": "/platform/v1/org",
+            "destination": "http://3.139.86.153:42100/bank/v1/org"
+        },
+        {
+            "source": "/platform/v1/userdetail",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetail"
+        },
+        {
+            "source": "/platform/v1/userdetail/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetail/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsid",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetailexists"
+        },
+        {
+            "source": "/platform/v1/sigmadocsummary/:id*",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmadocsummary/:id*"
+        },
+        {
+            "source": "/platform/v1/sigmadocsummary",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmadocsummary"
+        },
+        {
+            "source": "/platform/v1/sigmadocbytid",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmadocbytid"
+        },
+        {
+            "source": "/platform/v1/sigmadoc/:sigmaId*",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmadoc/:sigmaId*"
+        },
+        {
+            "source": "/platform/v1/sigmadoc",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmadoc"
+        },
+        {
+            "source": "/platform/v1/userdetail/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetail/:path*"
+        },
+        {
+        "source": "/api/v1/consortia/:status*/environments/:type*/services",
+        "destination": "https://console.kaleido.io/api/v1/consortia/:status*/environments/:type*/services"
+        },
+        {
+            "source": "/platform/v1/session",
+            "destination": "http://3.139.86.153:42100/bank/v1/session"
+        },
+        {
+            "source": "/platform/v1/session/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/session/:path*"
+        },
+        {
+            "source": "/platform/v1/resetpassword/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/resetpassword/:path*"
+        },
+        
+        {
+            "source": "/platform/v1/userprofile",
+            "destination": "http://3.139.86.153:42100/bank/v1/userprofile"
+        },
+        {
+            "source": "/platform/v1/userprofile/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userprofile/:path*"
+        },
+        {
+            "source": "/platform/v1/job",
+            "destination": "http://3.139.86.153:42100/bank/v1/job"
+        },
+		 
+       
+        {
+            "source": "/platform/v1/finalisedocs",
+            "destination": "http://3.139.86.153:42100/bank/v1/finalisedocs"
+        },
+
+        {
+            "source": "/platform/v1/networkbytennatid",
+            "destination": "http://3.139.86.153:42100/bank/v1/networkbytennatid "
+        },
+        {
+            "source": "/platform/v1/networkbytennatid/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/networkbytennatid/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsid/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetailsid/:path*"
+        },
+        {
+            "source": "/platform/v1/userdetailsidall/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetailsidall/:path*"
+        }
+        ,
+        {
+            "source": "/platform/v1/sigmanodesummary",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmanodesummary"
+        }
+        ,
+        {
+            "source": "/platform/v1/sigmanodesummary/:path*",
+            "destination": "http://3.139.86.153:42100/bank/v1/sigmanodesummary/:path*"
+        },
+        {
+            "source": "/platform/v1/tx",
+            "destination": "http://3.139.86.153:42100/bank/v1/tx"
+        },
+        {
+            "source": "/platform/v1/blocks",
+            "destination": "http://3.139.86.153:42100/bank/v1/blocks"
+        },
+        {
+            "source": "/platform/v1/nftdetails/:uid*",
+            "destination": "http://3.139.86.153:42100/bank/v1/nftdetails/:uid*"
+        },
+        {
+            "source": "/platform/v1/favourite",
+            "destination": "http://3.139.86.153:42100/bank/v1/favourite"
+        },
+        {
+            "source": "/platform/v1/favourite/:emailId*",
+            "destination": "http://3.139.86.153:42100/bank/v1/favourite/:emailId*"
+        },
+        {
+            "source": "/platform/v1/favourite/:emailId*/:sigmaId*",
+            "destination": "http://3.139.86.153:42100/bank/v1/favourite/:emailId*/:sigmaId*"
+        },
+        {
+            "source": "/platform/v1/notification",
+            "destination": "http://3.139.86.153:42100/bank/v1/notification"
+        },
+        {
+            "source": "/platform/v1/notification/:emailid*",
+            "destination": "http://3.139.86.153:42100/bank/v1/notification/:emailid*"
+        },
+        {
+            "source": "/platform/v1/notification/:emailid*/:statuses*",
+            "destination": "http://3.139.86.153:42100/bank/v1/notification/:emailid*/:statuses*"
+        },
+        {
+            "source": "/platform/v1/notificationbyid",
+            "destination": "http://3.139.86.153:42100/bank/v1/notificationbyid"
+        },
+        {
+            "source": "/platform/v1/helpandsupport",
+            "destination": "http://3.139.86.153:42100/bank/v1/helpandsupport"
+        },
+        {
+            "source": "/platform/v1/helpandsupport/:pageNo*",
+            "destination": "http://3.139.86.153:42100/bank/v1/helpandsupport/:pageNo*"
+        },
+        {
+            "source": "/platform/v1/helpandsupportstatus/:emailId*/:status*",
+            "destination": "http://3.139.86.153:42100/bank/v1/helpandsupportstatus/:emailId*/:status*"
+        }      ,
+        {
+            "source": "/platform/v1/jobsfetch",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobsfetch"
+        },
+        {
+            "source": "/platform/v1/jobsfetch/:pageNo*",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobsfetch/:pageNo*"
+        },{
+            "source": "/platform/v1/userdetailbytennantall",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetailbytennantall"
+        },
+        {
+            "source": "/platform/v1/userdetailbytennantall/:pageNo*",
+            "destination": "http://3.139.86.153:42100/bank/v1/userdetailbytennantall/:pageNo*"
+        },
+        {
+            "source": "/platform/v1/helpandsupportstatus",
+            "destination": "http://3.139.86.153:42100/bank/v1/helpandsupportstatus"
+        },
+        {
+            "source": "/platform/v1/jobs/:tenantId*",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobs/:tenantId*"
+        },
+        {
+            "source": "/platform/v1/jobs",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobs"
+        },
+        {
+            "source": "/platform/v1/jobsremove/:userId*",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobsremove/:userId*"
+        },
+        {
+            "source": "/platform/v1/jobschedule",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobschedule"
+        },
+        {
+            "source": "/platform/v1/jobschedule/:tennantid*",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobschedule/:tennantid*"
+        },
+        {
+            "source": "/platform/v1/updatedelay/:scheduletime*",
+            "destination": "http://3.139.86.153:42100/bank/v1/updatedelay/:scheduletime*"
+        },
+        {
+            "source": "/platform/v1/restdownload",
+            "destination": "http://3.139.86.153:42100/bank/v1/restdownload"
+        },
+        {
+            "source": "/platform/v1/jobhandle",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobhandle"
+        },
+        {
+            "source": "/platform/v1/jobhandle/:tennat*/:type*/:status*",
+            "destination": "http://3.139.86.153:42100/bank/v1/jobhandle/:tennat*/:type*/:status*"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord/:id*",
+            "destination": "http://3.139.86.153:42100/bank/v1/uservisitrecord/:id*"
+        },
+        {
+            "source": "/platform/v1/uservisitrecord/",
+            "destination": "http://3.139.86.153:42100/bank/v1/uservisitrecord/"
+        },
+        {
+            "source": "/platform/v1/veevadocs/:tennat*/:type*/:docid*",
+            "destination": "http://3.139.86.153:42100/bank/v1/veevadocs/:tennat*/:type*/:docid*"
+        },
+        {
+            "source": "/platform/v1/doccount/:id*",
+            "destination": "http://3.139.86.153:42100/bank/v1/doccount/:id*"
+        },
+        {
+            "source": "/platform/v1/pwdcheck/:emailid*",
+            "destination": "http://3.139.86.153:42100/bank/v1/pwdcheck/:emailid*"
+        },
+        {
+            "source": "/platform/v1/joblasttime",
+            "destination": "http://3.139.86.153:42100/bank/v1/joblasttime"
+        }
+
+
+    ]
+}

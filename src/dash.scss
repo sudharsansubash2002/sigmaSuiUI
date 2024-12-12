@@ -1,0 +1,59 @@
+
+  
+  .Toastify{
+      z-index: 999;
+  
+      &__toast{
+          padding: 20px !important;
+        //   box-shadow: 0px 50px 100px rgba(142, 85, 238, 0.3), 50px 0px 100px rgba(103, 189, 255, 0.2), inset 0px -1.858px 1.348px rgba(236, 239, 255, 0.12);
+      }
+
+      &__toast-container{
+          width: 100% !important;
+          max-width: 300px;
+
+          &--top-center{
+              top: 95px !important;
+          }
+      }
+
+      &__toast-body{
+          word-break: break-all;
+      }
+  }
+
+  .notification_unread {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+    &:hover {
+      font-weight: bolder;
+      color: rgb(35, 35, 60);
+      cursor: pointer;
+    }
+  }
+
+  .notification_read {
+    cursor: pointer;
+  }
+
+  .home_menu {    
+    &:hover {
+      font-weight: bolder;
+      color: rgb(35, 35, 60);
+      cursor: pointer;
+    }
+  }
+
+  .txn_hash_hover {    
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+.txn_hash {
+  text-decoration-line: underline;
+}
+
+ 
